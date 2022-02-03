@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>Francisco Mossri</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+		<header>
+		<img src="shubham-dhage-dECn_W4b8qQ-unsplash.jpg" alt="Olhos dentro de um buraco" class="photo" width="200px">
+			<h1 id="main_title">Francisco Mossri</h1>
+		</header>
+		<section>
+			<header>
+				<h2 class="subtitle">Posts</h2>
+			</header>
+			<article class="post">
+				<header>
+					<h3 class="post_title">Post #1</h3>
+					<img src="markus-spiske-cvBBO4PzWPg-unsplash.jpg" alt="Códigos HTML em uma tela preta" width="500px" class="post_image">
+				</header>
+				<p class"post_content">
+					"Lorem ipsum dolor sit amet, <a href="www.google.com.br" target="_blank">consectetur adipiscing</a> elit,<br> sed do eiusmod tempor incididunt ut labore 
+					et dolore magna aliqua. <a href="mailto:lombra@dmail.com">Ut enim ad minim veniam</a>,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip 
+					ex ea commodo consequat.<br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+					fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+					mollit anim id est laborum."
+				</p>
+			</article>
+		</section>
+		<footer>
+			<ul class="contact_list">
+				<li>
+					<a href="mailto:franciscomossri@meuemail.com">E-mail</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com">LinkedIn</a>
+				</li>
+				<li>
+					<a href="https://www.github.com">GitHub</a>
+				</li>
+			</ul>
+		</footer>
+    </body>
+</html>
