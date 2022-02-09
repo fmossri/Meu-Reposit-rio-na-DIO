@@ -18,6 +18,7 @@
 - CRTL + F - busca no código do arquivo; clica em replace = substitui todas as ocorrências do que foi digitado;
 - CRTL + P - busca  de arquivos por nome;
 - CRTL + SHIFT + P - comandos do VSCode e extensões; contém comentários, e mostra todos os atalhos de teclado;
+- CRTL + / cria comentário de linha; seleciona linhas e CRTL + / seleciona todas as linhas selecionadas;
 
 ### Preferências
 
