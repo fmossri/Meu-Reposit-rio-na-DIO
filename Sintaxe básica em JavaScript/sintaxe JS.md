@@ -34,18 +34,36 @@
 ### Atribuição, Comparação, Comparação idêntica
 
 - var a = 3; atribuição de valor; a = 4; mudou o valor de a;
+- - x=y
+  - x+=y
+  - x-=y
+  - x*=y
+  - x/=y
+  - x%=y
 - a == 3; comparação de valores; nesse caso retornará true;
 - var b = '3'; a === b; comparação total, de valor e tipo; nesse caso retornará false, pois 'a' guarda um inteiro, e 'b' uma string;
 - a != b; confere se há diferença entre os valores; nesse caso retornará false; 
+- a !== b; valor e tipos diferentes; no caso retornará true;
 
 ### Operadores aritméticos
 
 - adição +
+
 - subtração -
+
 - multiplicação *
+
 - divisão /
+
 - módulo ou divisão inteira (retorna o resto) %
+
 - potenciação **
+
+- ++ incrementar
+
+- -- decrementar
+
+  
 
 ### Operadores relacionais
 
@@ -73,7 +91,7 @@ Métodos:
 - array.forEach(function(item, index){instructions}) - itera por cada item de um array;
 - array.push('novo item') - adiciona item ao final do array;
 - array.pop() - remove do final do array;
-- arrayshift() - remove item do início;
+- array.shift() - remove item do início;
 - array.unshift('novo item') - adiciona item ao início;
 - array.indexOf(valor) - retorna o índice de um valor;
 - array.splice(início, fim, novo(s)Item(s)) - remove ou substitui um item pelo seu índice;
@@ -113,6 +131,20 @@ Dados que possuem propriedades e valores que definem suas características. Deve
 - If (a > b) { return true;} else { return false;}
 - If (a > b) {return 1;} else if (a < b){ return 2;} else{return 3;}
 - a > b && a != 3 ? return true : return false;
+
+
+
+if (condição) ? expressão1 : expressão2 
+
+==
+
+if (condição)
+
+​	expressão1;
+
+else
+
+expressão2;
 
 
 
