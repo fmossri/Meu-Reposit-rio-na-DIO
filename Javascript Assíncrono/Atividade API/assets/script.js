@@ -7,8 +7,7 @@ const getCats = async () => {
     .then((res) => res.json())
     .catch((e) => console.log(e));
     
-    return data.webpurl;
-    console.log(data.webpurl);
+    return data.url;
 };
     /*try {
     const data = await fetch(BASE_URL);
@@ -22,12 +21,11 @@ const getCats = async () => {
 };*/
 
 const loadImg = async () => {
+    console.log('clicou');
     const imagem = document.getElementById('imagem');
     imagem.src = await getCats();
-    console.log(await getCats());
-    console.log(imagem.src);
 }
-botao.addEventListener('click', loadImg());
+botao.addEventListener('click', loadImg);
 
 loadImg();
 /*async function fetchGatos() {
