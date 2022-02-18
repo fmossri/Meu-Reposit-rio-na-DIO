@@ -32,3 +32,9 @@ JOIN canais AS c ON vc.fk_canal = c.id_canal;
 
 - Só pode ser usado quando o número de colunas da consulta é igual
 - serve para fazer mais de uma consulta ao mesmo tempo
+
+SELECT * FROM tabela AS t1 JOIN tabela2 AS t2 ON t1.fk_key = t2.id_key
+
+UNION
+
+SELECT * FROM ...
