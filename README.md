@@ -1,7 +1,8 @@
 # Desafio de Projeto sobre Git/GitHub da DIO
-Repositório criado para o Desafio de Projeto.
+Repositório das minhas anotações e atividades na DIO.
+Criado para o Desafio de Projeto "Criando seu Primeiro Repositório no GitHub Para Compartilhar  Seu Progresso".
 
-Ele será organizado com uma pasta para cada aula.
+
 
 ## Links Úteis
 
